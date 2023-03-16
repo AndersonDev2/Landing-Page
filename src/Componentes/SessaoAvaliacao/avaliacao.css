@@ -1,0 +1,34 @@
+.Avaliacao {
+  position: relative;
+}
+.Avaliacao #comentario {
+  position: relative;
+  width: 800px;
+  height: 400px;
+  background-color: var(--coldColor);
+}
+.Avaliacao #comentario p {
+  position: relative;
+  left: 3rem;
+  top: 2rem;
+  width: 700px;
+  font-size: 1rem;
+  color: var(--blackColor);
+}
+.Avaliacao img {
+  position: relative;
+  bottom: 10rem;
+  left: 3rem;
+  border: 3px solid var(--blueColor);
+  width: 200px;
+  height: 180px;
+}
+.Avaliacao #NomeDeUsuario {
+  position: relative;
+  font-weight: bold;
+  color: var(--blackColor);
+  background-color: none;
+  font-size: 1.5rem;
+  left: 14rem;
+  bottom: 15rem;
+}

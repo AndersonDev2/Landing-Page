@@ -1,0 +1,36 @@
+.BoasVindas {
+  display: flex;
+  background-color: var(--mintColor);
+  height: 400px;
+}
+.BoasVindas p {
+  position: relative;
+  color: var(--textColor);
+  font-size: 1.3rem;
+  width: 640px;
+  left: 2rem;
+  top: 4rem;
+}
+.BoasVindas button {
+  position: relative;
+  border: none;
+  font-size: 1.2rem;
+  color: var(--blackColor);
+  background-color: var(--blueColor);
+  border-radius: 20px;
+  width: 120px;
+  right: 30rem;
+  top: 12rem;
+  height: fit-content;
+  transition: 0.1s;
+  cursor: pointer;
+}
+.BoasVindas button:hover {
+  color: var(--coldColor);
+  background-color: var(--blackColor);
+}
+
+.BoasVindas .ShopImage {
+  position: relative;
+  width: 550px;
+}

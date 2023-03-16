@@ -1,0 +1,10 @@
+:root {
+  --blackColor: #181823;
+  --blueColor: #537fe7;
+  --coldColor: #e9f8f9;
+  --mintColor: #c0eef2;
+}
+
+body {
+  background-color: var(--coldColor);
+}

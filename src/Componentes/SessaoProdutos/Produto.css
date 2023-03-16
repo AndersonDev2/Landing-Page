@@ -1,0 +1,23 @@
+.Produto {
+  position: relative;
+  background-color: var(--mintColor);
+  border: 10px solid var(--blackColor);
+  border-radius: 10px;
+  width: 330px;
+  height: 330px;
+  transition: 0.1s;
+  cursor: pointer;
+}
+.Produto:hover {
+  background-color: var(--blackColor);
+  border: 10px solid var(--blueColor);
+  transform: scale(1.1);
+}
+
+.Produto img {
+  position: relative;
+  border-radius: 20px;
+  width: 130px;
+  left: 5rem;
+  top: 1rem;
+}

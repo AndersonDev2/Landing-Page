@@ -1,0 +1,43 @@
+.SobreNos {
+  display: flex;
+  position: relative;
+  width: fit-content;
+}
+
+.SobreNos .SobreNosImage {
+  width: 500px;
+}
+.SobreNos .Texto {
+  position: relative;
+  bottom: 4rem;
+}
+.SobreNos .Texto h2 {
+  position: relative;
+  top: 5rem;
+  font-size: 2.5rem;
+  color: var(--blackColor);
+}
+.SobreNos .Texto p {
+  position: relative;
+  font-size: 1.2rem;
+  top: 3rem;
+  width: 700px;
+}
+.SobreNos .Texto button {
+  position: relative;
+  color: var(--blackColor);
+  background-color: var(--blueColor);
+  border: none;
+  top: 3rem;
+  right: 0.2rem;
+  font-size: 1.1rem;
+  border-radius: 20px;
+  width: 120px;
+  height: 40px;
+  transition: 0.1s;
+  cursor: pointer;
+}
+.SobreNos .Texto button:hover {
+  background-color: var(--blackColor);
+  color: var(--coldColor);
+}

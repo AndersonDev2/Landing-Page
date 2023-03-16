@@ -1,0 +1,19 @@
+.SessaoAvaliacao {
+  display: flex;
+  background-color: var(--mintColor);
+  overflow: hidden;
+  height: 480px;
+}
+.SessaoAvaliacao h2 {
+  position: relative;
+  left: 4rem;
+  width: 250px;
+  color: var(--blackColor);
+  font-size: 3rem;
+  text-align: center;
+}
+
+.SessaoAvaliacao .Avaliacao {
+  position: relative;
+  left: 10rem;
+}

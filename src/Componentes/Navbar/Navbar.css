@@ -1,0 +1,40 @@
+.Navbar {
+  overflow: hidden;
+  display: flex;
+}
+.Navbar a {
+  text-decoration: none;
+  color: var(--blackColor);
+}
+.Navbar .logo {
+  font-size: 2rem;
+}
+.Navbar ul {
+  position: relative;
+  display: flex;
+  left: 10rem;
+}
+.Navbar ul li {
+  list-style-type: none;
+  margin-left: 3rem;
+}
+.Navbar ul li a {
+  font-size: 1.3rem;
+  transition: 0.2s;
+}
+.Navbar ul li a:hover {
+  color: var(--blueColor);
+}
+
+.Navbar .userIcon {
+  position: relative;
+  color: var(--blackColor);
+  width: 30px;
+  left: 20rem;
+  bottom: 0.2rem;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.Navbar .userIcon:hover {
+  color: var(--blueColor);
+}

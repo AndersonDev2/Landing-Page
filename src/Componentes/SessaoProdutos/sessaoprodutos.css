@@ -1,0 +1,22 @@
+.SessaoProdutos {
+  position: relative;
+  overflow: hidden;
+  bottom: 4rem;
+}
+.SessaoProdutos h2 {
+  position: relative;
+  left: 25rem;
+  color: var(--blackColor);
+  font-size: 3rem;
+}
+.SessaoProdutos .ListaProdutos {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  bottom: 1rem;
+}
+.SessaoProdutos .ListaProdutos .Produto {
+  margin-top: 0.8rem;
+  margin-left: 3rem;
+  margin-bottom: 1.2rem;
+}
