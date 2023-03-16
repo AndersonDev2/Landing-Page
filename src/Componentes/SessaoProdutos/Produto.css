@@ -1,23 +1,27 @@
 .Produto {
   position: relative;
   background-color: var(--mintColor);
-  border: 10px solid var(--blackColor);
   border-radius: 10px;
-  width: 330px;
-  height: 330px;
+  width: 25vw;
+  height: 25vw;
+  border: 0.8vw solid var(--blackColor);
   transition: 0.1s;
   cursor: pointer;
 }
 .Produto:hover {
   background-color: var(--blackColor);
-  border: 10px solid var(--blueColor);
+  border: 0.8vw solid var(--blueColor);
   transform: scale(1.1);
 }
 
 .Produto img {
   position: relative;
-  border-radius: 20px;
-  width: 130px;
-  left: 5rem;
-  top: 1rem;
+  border-radius: 20%;
+  width: 40%;
+  left: 30%;
+  top: 8%;
+}
+.Produto section {
+  width: inherit;
+  height: inherit;
 }

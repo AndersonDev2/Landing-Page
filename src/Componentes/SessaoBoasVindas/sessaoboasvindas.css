@@ -1,27 +1,29 @@
 .BoasVindas {
   display: flex;
   background-color: var(--mintColor);
-  height: 400px;
+  font-size: 100vw;
+  width: 98vw;
+  height: 25vw;
 }
 .BoasVindas p {
   position: relative;
   color: var(--textColor);
-  font-size: 1.3rem;
-  width: 640px;
-  left: 2rem;
-  top: 4rem;
+  font-size: 1.8%;
+  width: 45%;
+  left: 2%;
+  top: 22%;
 }
 .BoasVindas button {
   position: relative;
   border: none;
-  font-size: 1.2rem;
+  font-size: 1.8%;
   color: var(--blackColor);
   background-color: var(--blueColor);
   border-radius: 20px;
-  width: 120px;
-  right: 30rem;
-  top: 12rem;
+  width: 10%;
+  top: 70%;
   height: fit-content;
+  right: 43%;
   transition: 0.1s;
   cursor: pointer;
 }
@@ -32,5 +34,5 @@
 
 .BoasVindas .ShopImage {
   position: relative;
-  width: 550px;
+  width: 45%;
 }

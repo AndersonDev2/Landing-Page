@@ -1,9 +1,11 @@
+.App {
+  overflow: hidden;
+}
 .App .SobreNos {
-  left: 4rem;
-  bottom: 2rem;
+  left: 4%;
 }
 
 .App .SessaoContato {
   position: relative;
-  left: 20rem;
+  left: 31%;
 }

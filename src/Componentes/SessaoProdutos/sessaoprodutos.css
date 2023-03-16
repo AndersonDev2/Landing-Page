@@ -1,22 +1,24 @@
 .SessaoProdutos {
   position: relative;
+  width: 95vw;
+  height: 42vw;
+  font-size: 2vw;
   overflow: hidden;
-  bottom: 4rem;
 }
 .SessaoProdutos h2 {
   position: relative;
-  left: 25rem;
+  left: 40%;
   color: var(--blackColor);
-  font-size: 3rem;
+  font-size: 200%;
 }
 .SessaoProdutos .ListaProdutos {
   position: relative;
   display: flex;
   overflow: hidden;
-  bottom: 1rem;
+  bottom: 2%;
 }
 .SessaoProdutos .ListaProdutos .Produto {
-  margin-top: 0.8rem;
-  margin-left: 3rem;
-  margin-bottom: 1.2rem;
+  margin-top: 1.5%;
+  margin-left: 4.5%;
+  margin-bottom: 2%;
 }

@@ -2,18 +2,20 @@
   display: flex;
   background-color: var(--mintColor);
   overflow: hidden;
-  height: 480px;
+  height: 33vw;
+  width: 98vw;
+  font-size: 3vw;
 }
 .SessaoAvaliacao h2 {
   position: relative;
-  left: 4rem;
-  width: 250px;
+  left: 5%;
+  width: 20%;
   color: var(--blackColor);
-  font-size: 3rem;
+  font-size: 150%;
   text-align: center;
 }
 
 .SessaoAvaliacao .Avaliacao {
   position: relative;
-  left: 10rem;
+  left: 13%;
 }

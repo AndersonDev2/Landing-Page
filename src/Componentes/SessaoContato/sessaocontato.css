@@ -1,44 +1,50 @@
 .SessaoContato {
-  width: fit-content;
+  position: relative;
+  width: 38vw;
+  height: 40vw;
+  font-size: 3vw;
+  /* border: 3px solid red; */
 }
 .SessaoContato h2 {
   position: relative;
-  left: 7rem;
-  font-size: 3rem;
+  left: 30%;
+  font-size: 140%;
   color: var(--blackColor);
 }
 .SessaoContato form {
   position: relative;
-  bottom: 2rem;
+  bottom: 8%;
+  width: inherit;
+  height: inherit;
 }
 
 .SessaoContato form label input {
   position: relative;
   color: var(--blackColor);
-  margin-top: 1rem;
-  font-size: 1.2rem;
-  width: 500px;
-  height: 50px;
+  margin-top: 4%;
+  font-size: 70%;
+  width: 95%;
+  height: 8%;
 }
 
 .SessaoContato form label textarea {
   resize: none;
-  width: 503px;
-  margin-top: 1rem;
-  font-size: 1.2rem;
+  width: 96%;
+  margin-top: 4%;
+  font-size: 70%;
 }
 
 .SessaoContato form button {
   position: relative;
-  margin-top: 1rem;
-  left: 9rem;
+  margin-top: 1%;
+  left: 32%;
   border: none;
-  font-size: 1.2rem;
+  font-size: 60%;
   color: var(--blackColor);
   background-color: var(--blueColor);
   border-radius: 20px;
-  width: 130px;
-  height: 40px;
+  width: 30%;
+  height: 8%;
   transition: 0.1s;
   cursor: pointer;
 }

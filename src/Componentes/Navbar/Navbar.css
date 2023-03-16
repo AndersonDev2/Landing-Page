@@ -1,25 +1,32 @@
 .Navbar {
-  overflow: hidden;
+  /* overflow: hidden; */
   display: flex;
+  font-size: 1.5vw;
+  width: 98vw;
+  height: 4vw;
 }
 .Navbar a {
   text-decoration: none;
   color: var(--blackColor);
 }
 .Navbar .logo {
-  font-size: 2rem;
+  font-size: 180%;
 }
 .Navbar ul {
   position: relative;
   display: flex;
-  left: 10rem;
+  left: 15%;
+  width: 50%;
 }
 .Navbar ul li {
+  position: relative;
   list-style-type: none;
-  margin-left: 3rem;
+  margin-left: 5%;
+  bottom: 50%;
 }
 .Navbar ul li a {
-  font-size: 1.3rem;
+  position: relative;
+  font-size: 130%;
   transition: 0.2s;
 }
 .Navbar ul li a:hover {
@@ -29,9 +36,9 @@
 .Navbar .userIcon {
   position: relative;
   color: var(--blackColor);
-  width: 30px;
-  left: 20rem;
-  bottom: 0.2rem;
+  height: 70%;
+  left: 30%;
+  top: 10%;
   transition: 0.2s;
   cursor: pointer;
 }

@@ -5,17 +5,18 @@ function Produto(props) {
   const [MudarStyle, setMudarStyle] = useState(0);
   const [PrecoStyle_h3, setPrecoStyle_h3] = useState({
     position: "relative",
-    left: "6.5rem",
-    top: "1rem",
+    left: "40%",
+    top: "8%",
     color: "#181823",
-    fontSize: "1.4rem",
+    fontSize: "105%",
     transition: "0.1s",
   });
   const [PrecoStyle_p, setPrecoStyle_p] = useState({
     position: "relative",
-    left: "5.5rem",
+    left: "32%",
+    top: "5%",
     color: "#181823",
-    fontSize: "1.2rem",
+    fontSize: "98%",
     fontWeight: "bold",
     transition: "0.1s",
   });
