@@ -1,11 +1,14 @@
 .App {
   overflow: hidden;
-}
-.App .SobreNos {
-  left: 4%;
+  width: 100%;
 }
 
 .App .SessaoContato {
-  position: relative;
-  left: 31%;
+  left: 30%;
+}
+
+@media (max-width: 675px) {
+  .App .SessaoContato {
+    left: 13%;
+  }
 }

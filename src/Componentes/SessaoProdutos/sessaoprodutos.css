@@ -1,24 +1,40 @@
-.SessaoProdutos {
+.SessaoProdutosDiv .SessaoProdutos {
   position: relative;
-  width: 95vw;
-  height: 42vw;
-  font-size: 2vw;
   overflow: hidden;
+  width: 100%;
+  bottom: 50px;
 }
-.SessaoProdutos h2 {
+.SessaoProdutosDiv h2 {
   position: relative;
-  left: 40%;
+  left: 43%;
   color: var(--blackColor);
-  font-size: 200%;
+  font-size: calc(1% + 3rem);
 }
-.SessaoProdutos .ListaProdutos {
+.SessaoProdutosDiv .SessaoProdutos .ListaProdutos {
   position: relative;
   display: flex;
+  width: 100%;
+  left: 3%;
+  gap: 5%;
   overflow: hidden;
   bottom: 2%;
 }
-.SessaoProdutos .ListaProdutos .Produto {
-  margin-top: 1.5%;
-  margin-left: 4.5%;
-  margin-bottom: 2%;
+
+@media (max-width: 675px) {
+  .SessaoProdutosDiv .SessaoProdutos {
+    overflow-x: auto;
+  }
+  .SessaoProdutosDiv .SessaoProdutos::-webkit-scrollbar {
+    background: var(--coldColor);
+  }
+  .SessaoProdutosDiv .SessaoProdutos::-webkit-scrollbar-thumb {
+    background-color: var(--mintColor);
+  }
+  .SessaoProdutosDiv h2 {
+    left: 35%;
+  }
+  .SessaoProdutosDiv .SessaoProdutos .ListaProdutos {
+    left: 0%;
+    width: 300%;
+  }
 }

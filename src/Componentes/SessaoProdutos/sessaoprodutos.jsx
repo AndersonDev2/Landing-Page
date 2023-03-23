@@ -7,17 +7,36 @@ import {
 } from "../../images/imagemprodutos.jsx";
 
 class SessaoProdutos extends Component {
-  state = {};
+  constructor(props) {
+    super(props);
+    this.state = { scroll: 0, target_scroll: 0 };
+    this.listaProdutosRef = React.createRef();
+    this.SessaoProdutosRef = React.createRef();
+  }
+  componentDidMount() {
+    this.SessaoProdutosRef.current.addEventListener("scroll", (e) => {
+      if (
+        this.SessaoProdutosRef.current.scrollLeft >
+        (119 / 100) * this.SessaoProdutosRef.current.offsetWidth
+      ) {
+        this.SessaoProdutosRef.current.scrollLeft =
+          (119 / 100) * this.SessaoProdutosRef.current.offsetWidth;
+      }
+    });
+  }
+
   render() {
     return (
-      <section className="SessaoProdutos">
+      <div className="SessaoProdutosDiv">
         <h2>Produtos</h2>
-        <section className="ListaProdutos">
-          <Produto img={<FoneDeOuvidoImagem />} preco={"200,00"} />
-          <Produto img={<FoneDeOuvidoImagem />} preco={"200,00"} />
-          <Produto img={<FoneDeOuvidoImagem />} preco={"200,00"} />
+        <section className="SessaoProdutos" ref={this.SessaoProdutosRef}>
+          <section className="ListaProdutos" ref={this.listaProdutosRef}>
+            <Produto img={<FoneDeOuvidoImagem />} preco={"200,00"} />
+            <Produto img={<FoneDeOuvidoImagem />} preco={"210,00"} />
+            <Produto img={<FoneDeOuvidoImagem />} preco={"220,00"} />
+          </section>
         </section>
-      </section>
+      </div>
     );
   }
 }

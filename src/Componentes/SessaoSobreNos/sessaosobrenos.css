@@ -1,26 +1,23 @@
 .SobreNos {
   display: flex;
   position: relative;
-  overflow: hidden;
-  width: 93vw;
-  height: 30vw;
-  font-size: 1.5vw;
+  width: 100%;
 }
 
 .SobreNos .SobreNosImage {
-  width: 30%;
+  width: calc(10% + 20rem);
 }
 .SobreNos .Texto {
   position: relative;
 }
 .SobreNos .Texto h2 {
   position: relative;
-  font-size: 200%;
+  font-size: 3rem;
   color: var(--blackColor);
 }
 .SobreNos .Texto p {
   position: relative;
-  font-size: 110%;
+  font-size: calc(1% + 1.3rem);
   width: 85%;
   bottom: 5%;
 }
@@ -31,7 +28,8 @@
   border: none;
   bottom: 4%;
   right: 0.8%;
-  font-size: 105%;
+  font-size: calc(1% + 1.4rem);
+  font-weight: bold;
   border-radius: 20px;
   width: 15%;
   height: 10%;
@@ -41,4 +39,12 @@
 .SobreNos .Texto button:hover {
   background-color: var(--blackColor);
   color: var(--coldColor);
+}
+@media (max-width: 675px) {
+  .SobreNos .SobreNosImage {
+    display: none;
+  }
+  .SobreNos .Texto button {
+    width: 30%;
+  }
 }

@@ -1,47 +1,95 @@
 .Navbar {
-  /* overflow: hidden; */
+  position: relative;
+  background-color: var(--coldColor);
   display: flex;
-  font-size: 1.5vw;
-  width: 98vw;
-  height: 4vw;
+  text-align: center;
+  justify-content: space-between;
+  width: 100%;
+  overflow: hidden;
+  transition: 0.2s;
 }
 .Navbar a {
   text-decoration: none;
   color: var(--blackColor);
-}
-.Navbar .logo {
-  font-size: 180%;
-}
-.Navbar ul {
-  position: relative;
-  display: flex;
-  left: 15%;
-  width: 50%;
-}
-.Navbar ul li {
-  position: relative;
-  list-style-type: none;
-  margin-left: 5%;
-  bottom: 50%;
-}
-.Navbar ul li a {
-  position: relative;
-  font-size: 130%;
   transition: 0.2s;
 }
-.Navbar ul li a:hover {
+.Navbar a:hover {
   color: var(--blueColor);
+}
+.Navbar .logo {
+  font-size: 2.5rem;
+}
+.Navbar .MenuLista {
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.Navbar .MenuLista li a {
+  font-size: 1.5rem;
+}
+.Navbar .MenuLista li {
+  transition: 0.1s;
+}
+.Navbar .MenuLista li:hover {
+  scale: 1.2;
 }
 
 .Navbar .userIcon {
-  position: relative;
-  color: var(--blackColor);
-  height: 70%;
-  left: 30%;
-  top: 10%;
-  transition: 0.2s;
-  cursor: pointer;
+  width: 40px;
 }
-.Navbar .userIcon:hover {
+.Navbar .MenuLista #MeuPerfil {
+  display: none;
+  transition: 0.2s;
+}
+.Navbar .MenuButton {
+  display: none;
+  border: none;
+  background: none;
+  outline: none;
+}
+.Navbar .MenuButton:hover svg {
   color: var(--blueColor);
+}
+.Navbar .MenuButton svg {
+  color: var(--blackColor);
+  width: 40px;
+}
+@media (max-width: 675px) {
+  .Navbar {
+    height: 50px;
+  }
+  .Navbar .userIcon {
+    display: none;
+  }
+  .Navbar .MenuButton {
+    position: absolute;
+    display: block;
+    left: 90%;
+  }
+  .Navbar .MenuLista {
+    position: absolute;
+    display: block;
+    left: 35%;
+    top: 25px;
+    padding: 30px;
+  }
+  .Navbar .MenuLista #MeuPerfil {
+    position: relative;
+    right: 17%;
+    border-radius: 20px;
+    width: 140%;
+    background-color: var(--blueColor);
+    display: block;
+  }
+  .Navbar .MenuLista #MeuPerfil:hover {
+    scale: 1.03;
+    background-color: var(--blackColor);
+  }
+  .Navbar .MenuLista #MeuPerfil:hover a {
+    color: var(--coldColor);
+  }
+  .Navbar .MenuLista li {
+    margin-bottom: 15px;
+  }
 }

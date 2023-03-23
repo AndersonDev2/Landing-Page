@@ -1,8 +1,6 @@
 .Avaliacao {
   position: relative;
-  width: 60vw;
-  height: 32vw;
-  font-size: 3vw;
+  width: 60%;
 }
 .Avaliacao #comentario {
   position: relative;
@@ -15,14 +13,14 @@
   left: 7%;
   top: 10%;
   width: 90%;
-  font-size: 50%;
+  font-size: calc(1% + 1.2rem);
   color: var(--blackColor);
 }
 .Avaliacao img {
   position: relative;
   bottom: 47%;
   left: 7%;
-  border: 0.3vw solid var(--blueColor);
+  border: 2px solid var(--blueColor);
   width: 25%;
   height: 40%;
 }
@@ -31,7 +29,28 @@
   font-weight: bold;
   color: var(--blackColor);
   background-color: none;
-  font-size: 80%;
+  font-size: calc(1% + 1.8rem);
   left: 35%;
   bottom: 70%;
+}
+
+@media (max-width: 675px) {
+  .Avaliacao #comentario {
+    width: 140%;
+    height: 410px;
+  }
+  .Avaliacao #comentario p {
+    height: 230px;
+    overflow: auto;
+    font-size: calc(1% + 1.3rem);
+  }
+  .Avaliacao img {
+    left: 10%;
+    width: 30%;
+    bottom: 130px;
+  }
+  .Avaliacao #NomeDeUsuario {
+    left: 45%;
+    bottom: 200px;
+  }
 }

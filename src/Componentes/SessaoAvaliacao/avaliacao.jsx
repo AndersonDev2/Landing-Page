@@ -18,7 +18,6 @@ class Avaliacao extends Component {
             tomar decisões informadas sobre minhas compras."
           </p>
         </section>
-
         <img src={this.props.img} alt="Imagem de perfil" />
         <p id="NomeDeUsuario">Nome de usuário</p>
       </div>
