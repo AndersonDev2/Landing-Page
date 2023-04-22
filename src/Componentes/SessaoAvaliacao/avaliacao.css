@@ -34,7 +34,7 @@
   bottom: 70%;
 }
 
-@media (max-width: 675px) {
+@media (max-width: 768px) {
   .Avaliacao #comentario {
     width: 140%;
     height: 410px;

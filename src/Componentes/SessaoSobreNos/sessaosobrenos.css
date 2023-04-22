@@ -40,6 +40,12 @@
   background-color: var(--blackColor);
   color: var(--coldColor);
 }
+@media (max-width: 768px) {
+  .SobreNos .Texto button {
+    width: 40%;
+  }
+}
+
 @media (max-width: 675px) {
   .SobreNos .SobreNosImage {
     display: none;

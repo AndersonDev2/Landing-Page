@@ -49,6 +49,13 @@
   transition: 0.1s;
 }
 
+@media (max-width: 768px) {
+  .Produto {
+    width: 15%;
+    margin-bottom: 1%;
+  }
+}
+
 @media (max-width: 675px) {
   .Produto {
     width: 17%;
@@ -59,6 +66,18 @@
 @media (max-width: 425px) {
   .Produto img {
     left: 20%;
+  }
+  .Produto section h3 {
+    left: 30%;
+  }
+}
+
+@media (max-width: 320px) {
+  .Produto {
+    width: 30%;
+  }
+  .Produto img {
+    left: 25%;
   }
   .Produto section h3 {
     left: 30%;

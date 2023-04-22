@@ -55,6 +55,45 @@
   color: var(--blackColor);
   width: 40px;
 }
+@media (max-width: 768px) {
+  .Navbar {
+    height: 50px;
+  }
+  .Navbar .userIcon {
+    display: none;
+  }
+  .Navbar .MenuButton {
+    position: absolute;
+    display: block;
+    left: 90%;
+  }
+  .Navbar .MenuLista {
+    position: absolute;
+    display: block;
+    left: 35%;
+    top: 25px;
+    padding: 30px;
+  }
+  .Navbar .MenuLista #MeuPerfil {
+    position: relative;
+    right: 17%;
+    border-radius: 20px;
+    width: 140%;
+    background-color: var(--blueColor);
+    display: block;
+  }
+  .Navbar .MenuLista #MeuPerfil:hover {
+    scale: 1.03;
+    background-color: var(--blackColor);
+  }
+  .Navbar .MenuLista #MeuPerfil:hover a {
+    color: var(--coldColor);
+  }
+  .Navbar .MenuLista li {
+    margin-bottom: 15px;
+  }
+}
+/* ========== */
 @media (max-width: 675px) {
   .Navbar {
     height: 50px;
@@ -91,5 +130,53 @@
   }
   .Navbar .MenuLista li {
     margin-bottom: 15px;
+  }
+}
+/* ========== */
+@media (max-width: 425px) {
+  .Navbar {
+    height: 50px;
+  }
+  .Navbar .userIcon {
+    display: none;
+  }
+  .Navbar .MenuButton {
+    position: absolute;
+    display: block;
+    left: 85%;
+  }
+  .Navbar .MenuLista {
+    position: absolute;
+    display: block;
+    left: 30%;
+    top: 25px;
+    padding: 30px;
+  }
+  .Navbar .MenuLista #MeuPerfil {
+    position: relative;
+    right: 17%;
+    border-radius: 20px;
+    width: 140%;
+    background-color: var(--blueColor);
+    display: block;
+  }
+  .Navbar .MenuLista #MeuPerfil:hover {
+    scale: 1.03;
+    background-color: var(--blackColor);
+  }
+  .Navbar .MenuLista #MeuPerfil:hover a {
+    color: var(--coldColor);
+  }
+  .Navbar .MenuLista li {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 375px) {
+  .Navbar .MenuLista {
+    position: absolute;
+    display: block;
+    left: 28%;
+    top: 25px;
+    padding: 30px;
   }
 }

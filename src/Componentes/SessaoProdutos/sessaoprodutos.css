@@ -20,7 +20,7 @@
   bottom: 2%;
 }
 
-@media (max-width: 675px) {
+@media (max-width: 768px) {
   .SessaoProdutosDiv .SessaoProdutos {
     overflow-x: auto;
   }

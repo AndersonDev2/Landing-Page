@@ -19,7 +19,7 @@
   left: 13%;
 }
 
-@media (max-width: 675px) {
+@media (max-width: 768px) {
   .SessaoAvaliacao {
     position: relative;
     display: block;

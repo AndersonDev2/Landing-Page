@@ -49,18 +49,43 @@
   color: var(--coldColor);
   background-color: var(--blackColor);
 }
+@media (max-width: 768px) {
+  .SessaoContato h2 {
+    left: 3%;
+  }
+}
 
-@media (max-width: 675px) {
+@media (max-width: 674px) {
   .SessaoContato h2 {
     left: 17%;
   }
-  .SessaoContato form label input {
-    width: 70%;
+  .SessaoContato form {
+    left: 17%;
   }
+}
+
+@media (max-width: 425px) {
+  .SessaoContato h2 {
+    left: 10%;
+  }
+  .SessaoContato form {
+    left: 10%;
+    width: 150%;
+  }
+}
+
+@media (max-width: 320px) {
+  .SessaoContato h2 {
+    left: 10%;
+    font-size: 3rem;
+  }
+  .SessaoContato form {
+    top: -40px;
+    left: 5%;
+    width: 180%;
+  }
+  .SessaoContato form label input,
   .SessaoContato form label textarea {
-    width: 70%;
-  }
-  .SessaoContato form button {
-    width: 70%;
+    font-size: 1.7rem;
   }
 }
