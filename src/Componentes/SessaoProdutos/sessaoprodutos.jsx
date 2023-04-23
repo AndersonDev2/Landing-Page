@@ -15,6 +15,9 @@ class SessaoProdutos extends Component {
   }
   componentDidMount() {
     this.SessaoProdutosRef.current.addEventListener("scroll", (e) => {
+      if (window.matchMedia("(max-width: 425px)").matches) {
+        return;
+      }
       if (
         this.SessaoProdutosRef.current.scrollLeft >
         (119 / 100) * this.SessaoProdutosRef.current.offsetWidth

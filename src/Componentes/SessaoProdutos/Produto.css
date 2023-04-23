@@ -64,8 +64,23 @@
 }
 
 @media (max-width: 425px) {
+  .Produto {
+    width: 22%;
+  }
   .Produto img {
-    left: 20%;
+    left: 25%;
+  }
+  .Produto section h3 {
+    left: 35%;
+  }
+}
+
+@media (max-width: 375px) {
+  .Produto {
+    width: 25%;
+  }
+  .Produto img {
+    left: 22%;
   }
   .Produto section h3 {
     left: 30%;
@@ -74,10 +89,10 @@
 
 @media (max-width: 320px) {
   .Produto {
-    width: 30%;
+    width: 25%;
   }
   .Produto img {
-    left: 25%;
+    left: 22%;
   }
   .Produto section h3 {
     left: 30%;

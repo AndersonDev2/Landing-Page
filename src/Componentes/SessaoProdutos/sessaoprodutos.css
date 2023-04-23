@@ -38,3 +38,21 @@
     width: 300%;
   }
 }
+
+@media (max-width: 425px) {
+  .SessaoProdutosDiv h2 {
+    left: 30%;
+  }
+}
+
+@media (max-width: 375px) {
+  .SessaoProdutosDiv h2 {
+    left: 28%;
+  }
+}
+
+@media (max-width: 320px) {
+  .SessaoProdutosDiv h2 {
+    left: 22%;
+  }
+}
